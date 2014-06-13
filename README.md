@@ -35,6 +35,8 @@ window.plugins.actionSheet.create({items: ['Add', 'Delete', 'Cancel'], destructi
 });
 ```
 
+**Note: In cordova 3, you should use `cordova.require` to get the plugin object. `window.plugins` is deprecated. **
+
 ## LICENSE ##
 
     The MIT License
